@@ -1,5 +1,4 @@
 <script lang="ts">
-  // Svelte 5 Runes for state management
   let query = $state('');
   let results = $state<any[]>([]);
   let loading = $state(false);
